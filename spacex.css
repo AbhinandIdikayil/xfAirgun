@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#page2{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+}
+#page2 #one{
+    height: 100%;
+    width: 50%;
+}
+#page2 #one img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+}
+#page2 #two{
+    height: 100%;
+    width: 50%;
+}
+#page2 #two img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+}
+
+/* for page-3 */
+#page3{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+}
+#page3 #one{
+    height: 100%;
+    width: 50%;
+}
+#page3 #one img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+}
+#page3 #two{
+    height: 100%;
+    width: 50%;
+}
+#page3 #two img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+}
+@media (max-width:570px) {
+    #page2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+    }
+    #page2 #one{
+        height: 50%;
+        width: 100%;
+    }
+    #page2 #one img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    #page2 #two{
+        height: 50%;
+        width: 100%;
+    }
+    #page2 #two img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    /* page3 */
+    #page3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+    }
+    #page3 #one{
+        height: 50%;
+        width: 100%;
+    }
+    #page3 #one img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    #page3 #two{
+        height: 50%;
+        width: 100%;
+    }
+    #page3 #two img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+footer{
+    width: 100%;
+    min-height: 20%;
+    color: wheat;
+    background: url(https://fxairguns.com/wp-content/uploads/2019/03/footer-bkg.jpg);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 30px;
+}
+#footer-img{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+#footer-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+footer #p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media (max-width:570px) {
+    footer p,span{
+        font-size: 12.5px;
+        text-align: center;
+    }
+}
+#icons{
+    position: relative;
+    z-index: 998;  
+    right: 1%;
+    top: 50vh;
+    position: fixed;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+#icons i{
+    margin: 2px;
+    background-color: rgb(95, 92, 92);
+    font-size: 20px;
+}
+i:hover{
+    color: blue;
+}
+/* for navbar */
+/* #nav{
+    position: absolute;
+    top: 0;
+    height: 8%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+    z-index: 999;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav img{
+    height: 50%;
+    width: 17%;
+}
+#nav div a{
+    text-decoration: none;
+    color: white;
+}
+#nav div{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+@media (max-width:719px) {
+    #nav div a{
+        font-size: 12px;
+    }
+    #nav img{
+        height: 40%;
+        width: 20%;
+    }
+    #nav div{
+        width: 80%;
+    }
+}
+@media (max-width:462px) {
+    #nav img{
+        height: 30%;
+        width: 20%;
+    }
+    #nav div{
+        width: 80%;
+
+    }
+    #nav div a{
+        font-size: 9px;
+    }
+} */
